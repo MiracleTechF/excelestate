@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ 
+}
+.ham{
+    display: none;
+}
+
+.main{
+    background-image: url(../images/home2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: 0.5; */
+    margin-bottom: 20px;
+}
+#home{
+    background-color: rgb(30, 30, 240);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    height: 50px;
+    opacity: 0.9;
+}
+#home a{
+    color: #fff;
+    font-size: 20px;
+    padding: 15px;
+}
+#home a:hover{
+    box-shadow: 20px 10px 50px rgb(255, 255, 2);
+    background-color: rgb(7, 73, 139);
+    transition: all 0.8s ease-in-out;
+    cursor: pointer;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+.signup{
+    color: white;
+    background-color: rgb(145, 106, 10);
+    width: 95px;
+    height: 50px;
+    border: 2px solid rgb(145, 106, 10);
+    border-radius: 50px;
+    margin-top: 5px;
+}
+.signup:hover{
+    box-shadow: 20px 10px 50px rgb(255, 255, 2);
+    background-color: rgb(7, 73, 139);
+    transition: all 0.8s ease-in-out;
+    cursor: pointer;
+    margin-left: 20px;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+.texts{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.head{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.excel{
+    color: rgb(134, 99, 8);
+}
+
+.contents{
+    border: 3px solid blue;
+    /* opacity: 0.7; */
+    border-radius: 40px;
+    font-size: 17px;
+    top: 20px;
+    /* color: white; */
+    color: white;
+    margin: 10px;
+}
+h3{
+    text-align: center;
+    font-size: 2rem; 
+    text-decoration: underline;
+}
+.mains{
+    text-align: justify;
+    padding: 35px;  
+    /* background-color: #010102; */
+    color: #010101;
+}
+#shop{
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+}
+.image1, .image2, .image3{
+    width: 400px;
+    height: auto;
+    padding: 20px;
+}
+.bungalow, .duplex, .parlour{
+    margin-left: 160px;
+    border-radius: 20px;
+    width: 120px;
+    border: 2px solid goldenrod;
+    background-color: goldenrod;
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.bungalow:hover{
+    box-shadow: 20px 10px 50px rgb(219, 92, 8);
+    background-color: rgb(7, 73, 139);
+    transition: all 0.8s ease-in-out;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.duplex:hover{
+    box-shadow: 20px 10px 50px rgb(219, 92, 8);
+    background-color: rgb(7, 73, 139);
+    transition: all 0.8s ease-in-out;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.parlour:hover{
+    box-shadow: 20px 10px 50px rgb(219, 92, 8);
+    background-color: rgb(7, 73, 139);
+    transition: all 0.8s ease-in-out;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.luxirous1, .luxirous2{
+    width: 400px;
+    height: auto;
+    padding: 20px;
+}
+.luxirous3{
+    width: 400px;
+    height: 225px;
+    padding: 20px;
+}
+#contact{
+    margin-top: 45px;
+}
+.shops{
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+}
+.luxirous, .luxury, .apartment{
+    margin-left: 160px;
+    border-radius: 20px;
+    width: 120px;
+    border: 2px solid goldenrod;
+    background-color: goldenrod;
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.apartment:hover{
+    box-shadow: 20px 10px 50px rgb(219, 92, 8);
+    background-color: rgb(7, 73, 139);
+    transition: all 0.8s ease-in-out;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.luxury:hover{
+    box-shadow: 20px 10px 50px rgb(219, 92, 8);
+    background-color: rgb(7, 73, 139);
+    transition: all 0.8s ease-in-out;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.luxirous:hover{
+    box-shadow: 20px 10px 50px rgb(219, 92, 8);
+    background-color: rgb(7, 73, 139);
+    transition: all 0.8s ease-in-out;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.forms{
+    margin-left: 10px;
+}
+input{
+    width: 270px;
+    height: 35px;
+    border-radius: 7px;
+    border: 2px solid rgb(219, 99, 8);
+    padding-left: 20px;
+}
+.sub{
+    width: 170px;
+    height: 35px;
+    border-radius: 7px;
+    color: #fff;
+    background-color: goldenrod;
+    border: 2px solid goldenrod;
+    margin-left: 45px;
+}
+.area{
+    width: 280px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 7px;
+    border: 2px solid goldenrod;
+}
+.sub:hover{
+    box-shadow: 20px 10px 50px rgb(219, 92, 8);
+    background-color: rgb(7, 73, 139);
+    transition: all 0.8s ease-in-out;
+    cursor: pointer;
+    text-decoration: underline;
+}
+#support{
+    margin: 10px;
+}
+footer{
+    background-color: rgb(100, 70, 70);
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+}
+.foot{
+    text-align: center;
+}
+@media screen and (max-width:600px) {
+    body{
+        overflow-x: hidden;
+    }
+    #home{
+        display: none;
+    }
+    .main{
+        width: 100%;
+        margin-left: 2px;
+    }
+    .contents{
+        margin-left: 15px;
+    }
+    .mains{
+        padding: 10px;
+    }
+    #shop{
+        display: block;
+        margin-left: 30px;
+    }
+    .shops{
+        display: block;
+        margin-left: 30px;
+    }
+    .signup{
+        margin-left: 7px;
+        /* margin-top: 2px; */
+
+    }
+    .texts{
+        font-size: 15px;
+    }
+    input{
+        width: 100px;
+        height: 15px;
+        margin-left: 5px;
+        padding: 5px;
+    }
+    .area{
+        height: 70px;
+        width: 100px;
+    }
+    .ham{
+        display: block;
+        position: relative;
+        margin-left: 350px;
+        color: goldenrod;
+    }
+    .ham:hover{
+        display: none;
+        cursor: pointer;
+    }
+    .ham:hover ~ #home{
+        display: block;
+        cursor: pointer;
+    }
+    .sub{
+        width: 80px;
+        height: 35px;
+        margin-left: 17px;
+    }
+}
